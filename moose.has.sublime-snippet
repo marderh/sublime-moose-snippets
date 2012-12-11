@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[has '${1:x}' => (
+		isa => '${2:String}',
+		is => '${3:ro}',
+	);
+${4}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>has</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.perl</scope>
+</snippet>
