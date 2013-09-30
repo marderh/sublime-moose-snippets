@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[has '${1:x}' => (
-		isa => '${2:String}',
+		isa => '${2:Str}',
 		is => '${3:ro}',
 	);
 ${4}
