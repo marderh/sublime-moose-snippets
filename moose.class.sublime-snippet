@@ -1,7 +1,9 @@
 <snippet>
 	<content><![CDATA[package ${1:packagename};
+
 use strict;
 use warnings;
+
 use Moose;
 
 ${2}
